@@ -72,8 +72,4 @@ recordRoutes.route('/:id').delete((req, response) => {
     })
 })
 
-recordRoutes.route('/register', async (req, res) => {
-    const user = req.body
-})
-
 module.exports = recordRoutes
